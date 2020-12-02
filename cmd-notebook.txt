@@ -1,0 +1,103 @@
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>main
+HTTP 401 Unauthorized, {"message": "401: Unauthorized", "code": 0}
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal 0xc0000005 code=0x0 addr=0x0 pc=0xbed4fd]
+
+goroutine 1 [running]:
+main.main()
+        C:/Users/paskb/OneDrive/Desktop/MWBR Go Projects (Golang)/003/main.go:28 +0xdd
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# command-line-arguments
+.\main.go:54:6: missing function body
+.\main.go:54:43: syntax error: unexpected =, expecting )
+.\main.go:55:2: syntax error: non-declaration statement outside function body
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# command-line-arguments
+.\main.go:54:6: missing function body
+.\main.go:54:43: syntax error: unexpected =, expecting )
+.\main.go:55:2: syntax error: non-declaration statement outside function body
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# command-line-arguments
+.\main.go:54:43: syntax error: unexpected =, expecting )
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+A text message that chvfefe is running, for example. Was it chvfefe?
+test
+exit status 2
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# command-line-arguments
+.\main.go:64:1: syntax error: unexpected EOF, expecting }
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+A text message that chvfefe is running, for example. Was it chvfefe?
+exit status 2
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+A text message that chvfefe is running, for example. Was it chvfefe?
+exit status 2
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+A text message that chvfefe is running, for example. Was it chvfefe?
+exit status 2
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# _/C_/Users/paskb/OneDrive/Desktop/MWBR_Go_Projects__Golang_/003/config
+config\config.go:9:5: syntax error: unexpected {, expecting name
+config\config.go:10:16: syntax error: unexpected string after top level declaration
+config\config.go:26:10: syntax error: cannot use err := nil as value
+config\config.go:34:10: syntax error: cannot use err := nil as value
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# _/C_/Users/paskb/OneDrive/Desktop/MWBR_Go_Projects__Golang_/003/config
+config\config.go:26:10: syntax error: cannot use err := nil as value
+config\config.go:34:10: syntax error: cannot use err := nil as value
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# _/C_/Users/paskb/OneDrive/Desktop/MWBR_Go_Projects__Golang_/003/config
+config\config.go:35:21: undefined: Error
+config\config.go:41:1: missing return at end of function
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# _/C_/Users/paskb/OneDrive/Desktop/MWBR_Go_Projects__Golang_/003/config
+config\config.go:41:3: not enough arguments to return
+        have ()
+        want (error)
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# _/C_/Users/paskb/OneDrive/Desktop/MWBR_Go_Projects__Golang_/003/bot
+ after top level declarationr: unexpected literal "
+bot\bot.go:9:31: newline in string
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# _/C_/Users/paskb/OneDrive/Desktop/MWBR_Go_Projects__Golang_/003/bot
+ after top level declarationr: unexpected literal "
+bot\bot.go:9:31: newline in string
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# command-line-arguments
+.\main.go:11:9: syntax error: cannot use err := nil as value
+.\main.go:18:21: syntax error: unexpected {, expecting comma or )
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# command-line-arguments
+.\main.go:18:21: syntax error: unexpected {, expecting comma or )
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# command-line-arguments
+.\main.go:6:2: imported and not used: "_/C_/Users/paskb/OneDrive/Desktop/MWBR_Go_Projects__Golang_/003/bot" as Bot
+.\main.go:16:2: undefined: bot
+.\main.go:18:14: undefined: strucht
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# command-line-arguments
+.\main.go:18:20: syntax error: unexpected (, expecting {
+.\main.go:19:2: syntax error: unexpected return, expecting field name or embedded type
+
+C:\Users\paskb\OneDrive\Desktop\MWBR Go Projects (Golang)\003>go run main.go
+# command-line-arguments
+.\main.go:6:2: imported and not used: "_/C_/Users/paskb/OneDrive/Desktop/MWBR_Go_Projects__Golang_/003/bot" as Bot
+.\main.go:16:2: undefined: bot
