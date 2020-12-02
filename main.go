@@ -52,5 +52,16 @@ func main() {
 }
 
 func chvfefeHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
-	fmt.Println(m.Content)
+	if m.Author.ID == BotID { //If the ID of the Author of the Message is equal to the Bot ID that is set
+		return
+		/*To not execute the rest of the code, just in case it exits.
+		So the Bot doesn't talk to itself, just want to avoid any spam problems here*/
+	}
+
+	if m.Content == "chvfefe" {
+		_, _ = s.ChannelMessageSend(m.ChannelID, "Yep, you're definitely right")
+	/* Yes, I know. I used the blank identifier, in order to avoid any "undeclared" variable error, happened to me already.
+	I found the source here:
+	https://www.geeksforgeeks.org/what-is-blank-identifierunderscore-in-golang/#:~:text=_(underscore)%20in%20Golang%20is,unused%20variable%20using%20Blank%20Identifier.&text=It%20hides%20the%20variable%27s%20values%20and%20makes%20the%20program%20readable.*/
+	}
 }
