@@ -6,7 +6,7 @@ import (
 	"github.com/bwmarrin/discordgo"
 )
 
-const EpicTokenChvfefe string = "Nzc4NzEwMzgyNjEyMDU0MDE2.X7V8jg.lfmSHRXWybSDmH4fbd1VY2j5Xlw"
+const EpicTokenChvfefe string = "Did you know strawberries aren't berries?"
 
 var BotID string
 
